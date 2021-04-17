@@ -70,13 +70,27 @@ class CustomHelper extends Helper {
     	} else {
     		//return 'Gayas';
 
-    		if(($data->select_five=='1') && ($data->select_three=='1' || $data->select_three=='2' || $data->select_three=='3' || $data->select_three=='4')) {
-    			$startDate = ($data->start_date);
-    			$endDate = $data->end_date;
+    		$startDate = ($data->start_date);
+			$endDate = $data->end_date;
 
-    			$days = $this->getDate($startDate, $endDate, $data->select_fore);
-    			return count($days);
-    		}
+			$ts1 = strtotime($startDate);
+			$ts2 = strtotime($endDate);
+
+			$year1 = date('Y', $ts1);
+			$year2 = date('Y', $ts2);
+
+			$month1 = date('m', $ts1);
+			$month2 = date('m', $ts2);
+
+			$diff = (($year2 - $year1) * 12) + ($month2 - $month1);
+			$diff= $diff+1;
+			$totalMonth = $data->select_five;
+			if($diff >= $totalMonth){
+                $count= $totalMonth;
+			}else{
+				$count= $diff;
+			}
+			return $count;
     	}
     }
 
