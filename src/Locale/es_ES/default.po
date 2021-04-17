@@ -1,0 +1,45 @@
+msgid "Home" 
+msgstr "Home" 
+
+msgid "How It Works" 
+msgstr "How It Works" 
+
+msgid "Download" 
+msgstr "Download" 
+
+msgid "HOME_TEXT_ONE" 
+msgstr "GET THE APP" 
+
+msgid "HOME_TEXT_TWO" 
+msgstr "Settle Your Stuff" 
+
+msgid "HOME_TEXT_THREE" 
+msgstr "The only way to be truly satisfied is to do what you believe is great work." 
+
+msgid "STEP_ONE_TITLE" 
+msgstr "Click photo" 
+
+msgid "STEP_ONE_DESCRIPTION" 
+msgstr "Lorem Ipsum is simply dummy text of the printing and typesetting industry." 
+
+
+msgid "STEP_TWO_TITLE" 
+msgstr "Upload" 
+
+msgid "STEP_TWO_DESCRIPTION" 
+msgstr "Lorem Ipsum is simply dummy text of the printing and typesetting industry." 
+
+msgid "STEP_THREE_TITLE" 
+msgstr "buy and sell" 
+
+msgid "STEP_THREE_DESCRIPTION" 
+msgstr "Lorem Ipsum is simply dummy text of the printing and typesetting industry." 
+
+msgid "HOME_TEXT_FOUR" 
+msgstr "Download the app" 
+
+msgid "HOME_TEXT_FIVE" 
+msgstr "Lorem ipsum dolor sit amet consectuer" 
+
+msgid "HOME_TEXT_SIX" 
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation!" 

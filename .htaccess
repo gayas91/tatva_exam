@@ -1,0 +1,17 @@
+# Uncomment the following to prevent the httpoxy vulnerability
+# See: https://httpoxy.org/
+#<IfModule mod_headers.c>
+#    RequestHeader unset Proxy
+#</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+	
+	#RewriteCond %{HTTPS} !=on
+	# This checks to make sure the connection is not already HTTPS
+
+	#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]
+
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>

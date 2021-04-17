@@ -1,0 +1,112 @@
+@media(max-width: 1599.98px){
+}
+@media(max-width: 1299.98px){
+}
+@media(max-width: 1199.98px){
+}
+@media(max-width: 991.98px){
+	.help_center_collaps.points a{
+		padding-right: 15px !important;
+		font-size: 13px;
+	}
+	ul.batting_list li a {
+	    font-size: 11px !important;
+	}
+	.points {
+	    width: 100%;
+	    margin-bottom: 25px;
+	}
+	.custom_menu {
+	    display: inline-block;
+	    float: right;
+	    width: calc(100% - 252px);
+	}
+	.custom_menu button.navbar-toggler {
+	    position: absolute;
+	    right: 0px;
+	    top: 10px;
+	}
+	.custom_menu form.form-inline .btn{
+		margin-left: 0px;
+	}
+	.navbar-collapse {
+	    position: absolute;
+	    top: 58px;
+	    background: #fff;
+	    width: 100%;
+	    left: 0px;
+	    right: 0px;
+	    z-index: 10;
+	    padding: 15px;
+	    border-radius: 5px;
+	    border: 1px solid #963032;
+	}
+}
+@media(max-width: 767.98px){
+	.inner_dreamstar{
+		position: initial;
+		height: initial;
+		padding-bottom: 20px;
+	}
+	.life_at_dream .culture_tab h3{
+		font-size: 20px !important;
+	}
+	.life_at_dream .inner_tabing .list-group a {
+	    font-size: 12px;
+	    padding: 5px 5px;
+	}
+	.life_at_dream .inner_tabing .list-group a {
+	    font-size: 12px;
+	    padding: 5px 5px;
+	    border-bottom: 3px solid transparent !important;
+	}
+	ul.batting_list li a>small {
+	    width: 65%;
+	    position: relative;
+	    top: -5px;
+	    line-height: 11px;
+	}
+	main {
+	    min-height: 453px;
+	}
+	span.logo{
+		width: 152px;
+	}
+	.logo img {
+	    width: 152px;
+	}
+	button.navbar-toggler {
+	    top: -36px;
+	    right: -6px;
+	}
+	.navbar-collapse{
+		left: initial;
+		right: 0px;
+		min-width: 300px;
+	}
+	.inner_tabing .list-group a{
+		padding: 10px 10px;
+		font-size: 14px;
+	}
+	.inner_static h2, .culture_tab h2{
+		font-size: 24px;
+	}
+	.help_center_collaps .card-header a,
+	.help_center_collaps .card-header a[aria-expanded="true"]{
+		background-position: 95% center;
+	}
+	.help_center_collaps .card-header a{
+		font-weight: 500;
+		padding-right:50px;
+	}
+	.top_header{ display: none;}
+	.container_head .container{ padding-left: 0px; padding-right: 0px;}
+	.culture_tab ul{ padding: 0px 15px; margin-top:15px;}
+	.container_head .row{ margin-left: 0px; margin-right: 0px;}
+	.container_head .row [class^="col-"]{ padding-left: 0px; padding-right: 0px;}
+	
+
+	
+}
+@media(max-width: 575px){
+}

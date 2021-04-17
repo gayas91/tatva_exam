@@ -1,0 +1,6 @@
+{
+    "require": {
+        "dereuromark/cakephp-mailchimp": "1.0.*",
+        "twilio/sdk": "^5.24"
+    }
+}
